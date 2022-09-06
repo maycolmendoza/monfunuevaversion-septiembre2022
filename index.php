@@ -1,9 +1,9 @@
 <?php
 $routes = [];
-route('/MONFU2022/', function () {
+route('/', function () {
   require_once __DIR__ . '/views/poster.php';
 });
-route('/MONFU2022/posters', function () {
+route('/posters', function () {
   require_once __DIR__ . '/views/poster.php';
 });
 route('/estadia', function () {
