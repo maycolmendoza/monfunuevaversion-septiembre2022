@@ -13,9 +13,7 @@ route('/estadia', function () {
 route('/ponentes', function () {
   require_once __DIR__ . '/views/building.php';
 });
-route('/posters', function () {
-  require_once __DIR__ . '/views/poster.php';
-});
+
 
 route('/404', function () {
   require_once __DIR__ . '/views/404.php';
