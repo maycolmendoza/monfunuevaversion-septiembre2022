@@ -1,7 +1,7 @@
 <?php
 $routes = [];
 route('/', function () {
-  require_once __DIR__ . '/views/poster.php';
+  require_once __DIR__ . '/views/index.php';
 });
 route('/posters', function () {
   require_once __DIR__ . '/views/poster.php';
